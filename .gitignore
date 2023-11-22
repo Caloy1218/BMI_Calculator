@@ -1,0 +1,9 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs
+/BMI_CALCULATOR/.vs/BMI_CALCULATOR
+/BMI_CALCULATOR/bmi_calculator.client/obj/Debug
+/BMI_CALCULATOR/BMI_CALCULATOR.Server/bin/Debug/net8.0
+/BMI_CALCULATOR/BMI_CALCULATOR.Server/obj
