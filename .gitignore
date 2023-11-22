@@ -7,3 +7,5 @@
 /BMI_CALCULATOR/bmi_calculator.client/obj/Debug
 /BMI_CALCULATOR/BMI_CALCULATOR.Server/bin/Debug/net8.0
 /BMI_CALCULATOR/BMI_CALCULATOR.Server/obj
+/BMI_CALCULATOR/.vs/ProjectEvaluation/bmi_calculator.metadata.v7.bin
+*.bin
