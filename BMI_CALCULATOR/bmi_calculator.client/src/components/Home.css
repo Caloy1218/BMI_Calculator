@@ -1,0 +1,85 @@
+
+.home--container {
+    margin: 2.5em auto 0;
+    width: 70%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    height: 60vh;
+    padding: 25px 0;
+    border-radius: 5px;
+}
+
+.title{
+    font-size:4.5em;
+}
+.home--genderMetric{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    gap:2em;
+}
+.genderContainer{
+    display:flex;
+    align-items:center;
+}
+.genderContainer label {
+    font-size: 1.5em;
+}
+.genderContainer input {
+    margin: 10px;  
+}
+.genderContainer input[type=radio] {
+    width: 1.5em;
+    height: 1em;
+}
+.metricContainer label{
+    font-size:1.5em;
+    padding: 5px 0 0 0;
+
+}
+.toggle--units {
+    background-color: #00AEEF;
+    color: white;
+    border-radius: 5px;
+    border-style: none;
+    margin: 0 0 0 .5em;
+    padding: 5px 3px;
+    font-size: 1em;
+    padding: 10px 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.home--AgeHW{
+    display:flex;
+    flex-direction:column;
+    padding: 0 40px;
+    gap: 2em;
+    margin: 40px 0 0 0;
+}
+
+.home--AgeHW input{
+    width:70%;
+    height:3em;
+
+}
+.comp-container{
+    display:flex;
+    align-items: center;
+}
+.comp-container label{
+    width: 160px;
+    font-size:1.3em;
+}
+.calculate {
+    background-color: #00AEEF;
+    color: white;
+    border-radius: 5px;
+    margin: 20px auto;
+    border-style: none;
+    font-size: 1.3em;
+    padding: 10px 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.calculate:hover, .toggle--units:hover {
+    color: #00AEEF;
+    background-color: white;
+}
