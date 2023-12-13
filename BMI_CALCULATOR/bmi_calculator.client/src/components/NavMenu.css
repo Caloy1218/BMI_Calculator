@@ -1,7 +1,15 @@
-﻿﻿a.navbar-brand {
+﻿@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Quicksand:wght@300;400;500;600;700&display=swap');﻿
+a.navbar-brand {
     white-space: normal;
     text-align: center;
     word-break: break-all;
+}
+.text-dark:hover {
+    color: #f1356d;
+}
+.bmi--logo {
+    width: 70px;
+    margin-left: 10px;
 }
 
 html {
@@ -16,4 +24,8 @@ html {
 
 .box-shadow {
     box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+.navbar-expand-sm {
+    padding-top: 0;
+    font-family: quicksand;
 }

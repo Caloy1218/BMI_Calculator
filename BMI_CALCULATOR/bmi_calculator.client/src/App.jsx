@@ -1,8 +1,7 @@
-import ReactDOM from "react-dom/client";
-import { Layout } from './components/Layout';
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import AppRoutes from './AppRoutes';
-import './App.css';
+import { Layout } from './components/Layout';
 
 function App() {
     return (

@@ -49,7 +49,11 @@ export default defineConfig({
             '^/weatherforecast': {
                 target: 'https://localhost:7253/',
                 secure: false
-            }
+            },
+        '^/TDEE': {
+            target: 'https://localhost:7253/',
+            secure: false
+        }
         },
         port: 5173,
         https: {
