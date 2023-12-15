@@ -1,19 +1,23 @@
-﻿﻿a.navbar-brand {
-    white-space: normal;
-    text-align: center;
-    word-break: break-all;
+﻿                                                                                                                                                                                                                        }
+.text-dark:hover {
+    color: #f1356d;
 }
 
 html {
     font-size: 14px;
 }
 
-@media (min-width: 768px) {
-    html {
-        font-size: 16px;
-    }
+header {
+    color: #333;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    height:10vh;
 }
 
-.box-shadow {
-    box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+h1 {
+    margin: 0;
+    font-size:2.5em;
 }
