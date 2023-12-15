@@ -1,273 +1,120 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Quicksand:wght@300;400;500;600;700&display=swap');
-.home--container {
-    margin: 2.5em auto 0;
-    width: 70%;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    height: 80vh;
-    padding: 25px 0;
-    border-radius: 5px;
-    font-family: quicksand;
-}
-.tdeeCalculator-container {
-    height: 85vh;
-    padding-top: 20px;
-    display: flex;
-    color: white;
-    margin:0 auto;
-    background-color: #1b1c1e;
-}
-.tdeeCalculator-container h5,
-.tdeeCalculator-container p {
-    font-weight: 400;
-}
-
-.tdee-Calculator {
-    width:80%;
-    background-color: var(--animation-color);
-    margin: 0 auto;
-    border-top: 1px solid #1b1c1e;
-    border-right: 1px solid #1b1c1e;
-    padding-top: 20px;
-}
-
-.tdeeCalculator-container h1 {
-    text-align: center;
-    margin: 20px auto 20px;
-    font-size: 2.5rem;
-    width: 400px;
-}
 
 form {
-    max-width: 70%;
-    margin:0 auto;
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="number"],
+select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+input[type="radio"]:nth-child(3){
+    margin-left: 20px;
+}
+input[type="radio"] {
+    margin-right: 5px; 
+}
+
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 0 auto;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
 }
 
 .form-container {
-    display: flex;
-    align-items: center;
-}
-#submit{
-    width: 5em;
-    margin: 30px auto;
-    padding: 0;
-}
-.form-container:first-child {
-    max-width: 80%;
-    align-items: center;
-    margin:0 auto;
-}
-
-.form-container label {
-    width: 40%;
-    font-size: 1.5rem;
-    margin: 10px 40px 0 20px;
-    padding-left: 30px;
-}
-
-.form-container input {
-    width: 40%;
-    margin: 20px 0;
-    height: 6vh;
-    font-size: 1.5rem;
-    padding: 10px;
-}
-
-.form-container #activityLevel {
-    height: 6vh;
-    width: 40%;
-    margin: 20px 0;
-    font-size: 1.5rem;
-}
-
-
-#submit:hover {
-    background-color: #1b1c1e;
-    color: white;
-    transition: 0.5s;
-}
-
-.tdee-result-container {
-    padding: 50px;
-}
-
-#stats {
-    position: absolute;
-    top: 40%;
-    left: 43%;
-    font-size: 3rem;
-    padding: 50px;
-    color: #48cfad;
-}
-
-.maintenanceCals-container {
-    display: flex;
-    justify-content: space-around;
-    margin-top: 80px;
-}
-
-.maintenanceCals {
-    width: 50%;
-    text-align: center;
-    background-color: #48cfad;
-    padding-top: 50px;
-}
-
-.maintenanceCals h2,
-.maintenanceCals-defenition h2 {
-    font-size: 2.2rem;
-}
-
-.maintenanceCals-defenition {
-    width: 40%;
-    text-align: center;
-}
-
-.CalsPerday-Perweek {
-    height: 330px;
-    display: flex;
-align-items: center;
-justify-content: space-evenly;
-flex-direction: column;
-width: 90%;
-font-size: 2rem;
-text-align: center;
-color: white;
-margin: 0 auto;
-}
-
-.italic {
-font-size: 1rem;
-font-style: italic;
-}
-
-.LoseOrGain {
-margin: 15px auto 0;
-display: none;
-width: 90%;
-text-align: center;
-background-color: white;
-color: #1b1c1e;
-padding: 20px;
-}
-
-.LoseOrGain h3 {
-    font-size: 2rem;
-    margin: 0 0 20px 0;
-}
-
-.LoseOrGain button {
-    padding: 15px;
-    color: white;
-    margin: 0 10px 0 0;
-    background: #1b1c1e;
-    font-size: 20px;
-    border: 1px solid #48cfad;
-}
-
-.LoseOrGain button:hover {
-    background-color: #48cfad;
-    border: 1px solid #1b1c1e;
-    box-shadow: -9px -9px 18px #ab9292, 9px 9px 18px #e7c6c6;
-    font-size: 20px;
-    transition: 0.5s;
-}
-
-.maintenanceCals-defenition {
-    height: 700px;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    flex-direction: column;
-    font-size: 2rem;
-    text-align: center;
-    color: white;
-}
-
-.maintenanceCals-defenition h3 {
-    margin-top: -25px;
-}
-
-.maintenanceCals-defenition h5 {
-    margin-bottom: -20px;
-    font-size: 1.5rem;
-}
-
-@media screen and (max-width: 450px) {
-header {
-    padding: 0 5%;
-}
-
-.tdeeCalculator-container {
-    height: auto;
-    display: flex;
-    flex-direction: column;
-}
-
-.tdeeCalculator-container h1 {
-    text-align: center;
-    margin: 10px auto;
-    font-size: 2rem;
-    width: 90%;
-}
-
-.tdee-Calculator {
-    width: 90%;
-    margin: 50px auto;
-}
-
-.tdee-result {
-    margin: 0;
-}
-
-.form-container:first-child {
-    width: 385px;
-    margin: 0;
-}
-
-#male,
-#female {
-    width: 20px;
-    margin: 0 10px;
-}
-
-.tdee-Calculator form {
-    width: 90%;
-    margin: 0;
-}
-
-.tdee-result-container {
-    padding: 0;
-}
-
-.maintenanceCals-container {
-    display: flex;
-    justify-content: space-around;
-    margin-top: 80px;
-    flex-direction: column;
-}
-
-.maintenanceCals,
-.maintenanceCals-defenition {
-    width: 90%;
-    margin: 0px auto;
-}
-
-    .maintenanceCals h2,
-    .maintenanceCals-defenition h2 {
-        font-size: 1.5rem;
-    }
-
-.LoseOrGain button {
-    margin: 5px;
-}
-
-#submit {
-    padding: 5px 5px 15px 10px;
-    font-size: 1.2em;
+    margin-bottom: 20px;
 }
 
 .form-container:last-child {
-    padding-bottom: 20px;
-    margin-left: 10%;
+    text-align: center;
 }
+
+.resultContainer {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    margin: 0 auto;
+}
+.resultContainer h2{
+    text-align:center;
+    margin:10px 0 10px 0;
+    font-size: 35px;
+}
+.resultContainer p {
+    font-size: 2rem;
+}
+.goBack
+{
+    width: 200px;
+    margin: 20px auto;
+    padding: 20px 0 ;
+    font-size: 1.2em;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+    
+td:first-child {
+    font-weight: bold;
+}
+ 
+.goBack, #submit {
+    display: block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.goBack:hover, #submit:hover {
+    background-color: #45a049;
 }

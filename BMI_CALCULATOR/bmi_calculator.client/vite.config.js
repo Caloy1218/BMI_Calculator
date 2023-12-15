@@ -52,7 +52,7 @@ export default defineConfig({
             },
         '^/TDEE': {
             target: 'https://localhost:7253/',
-            secure: false
+            secure: false 
         }
         },
         port: 5173,
